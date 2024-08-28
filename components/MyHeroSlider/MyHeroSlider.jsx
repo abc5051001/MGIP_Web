@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import HeroSlider, { Slide, Nav, Overlay } from 'hero-slider';
+import HeroSlider, { Slide, Nav, Overlay, ButtonsNav } from 'hero-slider';
 import dc from '../../pictures/dc.webp';
 import alexandria from '../../pictures/monument.jpg';
 import uspto from '../../pictures/uspto.webp';
@@ -82,8 +82,8 @@ const MyHeroSlider = () => {
       >
         <Overlay>
           <Wrapper>
-            <Title>Experienced</Title>
-            <Subtitle>Trusted Advisors for Over 50 Years</Subtitle>
+            <Title></Title>
+            <Subtitle>Thomas Jefferson</Subtitle>
           </Wrapper>
         </Overlay>
       </Slide>
@@ -97,13 +97,13 @@ const MyHeroSlider = () => {
       >
         <Overlay>
           <Wrapper>
-            <Title>Global Reach</Title>
-            <Subtitle>International Patent Services</Subtitle>
+            <Title></Title>
+            <Subtitle>USPTO Office</Subtitle>
           </Wrapper>
         </Overlay>
       </Slide>
 
-      <Nav />
+      <ButtonsNav />
     </HeroSlider>
   );
 };

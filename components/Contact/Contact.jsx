@@ -8,7 +8,7 @@ export default function Contact() {
                     <Hero2
             backgroundImage={teamphoto}
             text="Contact Us"
-            height="80vh"  // Set appropriate height as needed
+            height="40vh"  // Set appropriate height as needed
             subText=""  // Optional: add a subtitle if needed
         />
             <div className="contact-banner">

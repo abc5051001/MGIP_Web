@@ -37,7 +37,7 @@ export const About = () => {
   const serviceCards = [
     {
       title: "Patent",
-      description: "We offer comprehensive patent services, including application filing, prosecution, and portfolio management. Our team ensures your innovations are protected and your intellectual property rights are enforced globally.",
+      description: "Patents are granted for inventions that are novel, non-obvious, and useful. An invention can be any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof. Examples of patentable inventions include new technologies, products, methods, devices, and chemical compounds.",
       icon: FaFileSignature,
       linkText: "Learn More",
     },
@@ -66,7 +66,7 @@ export const About = () => {
         <div className='buttonCard'>
           <ButtonCard
             backgroundColor="transparent"
-            title="Client Counseling for IP law"
+            title="About Us"
             content="Muncy, Geissler, Olds & Lowe PC is an intellectual property law firm in the Washington DC metropolitan area. Founded in 2006, the firm has become a top IP law firm, serving a diverse range of domestic and international clients. Our multilingual team, with expertise in science and technology, delivers superior quality work efficiently and cost-effectively."
             buttonText=""
             borderRadius=""

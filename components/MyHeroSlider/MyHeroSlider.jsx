@@ -67,8 +67,8 @@ const MyHeroSlider = () => {
       >
         <Overlay>
           <Wrapper>
-            <Title>Experienced</Title>
-            <Subtitle>Trusted Advisors for Over 50 Years            </Subtitle>
+            <Title></Title>
+            <Subtitle>Washington Monument, Washington D.C.</Subtitle>
           </Wrapper>
         </Overlay>
       </Slide>

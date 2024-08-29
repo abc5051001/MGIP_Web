@@ -9,14 +9,13 @@
     width: 100%; /* Ensures the navbar spans the full width of the viewport */
     z-index: 1000; /* Ensures the navbar stays above other content */
     transition: padding 0.3s ease, background-color 0.3s ease;
-
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Slightly black line at the bottom */
 }
 
 /* Smaller navbar size after scrolling */
 .navbar-shrink {
     padding: 1px 60px;
     background-color: rgba(255, 255, 255, 0.95);
-    border-width: 5cm;
     border-color:#333;
 }
 

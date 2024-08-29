@@ -7,7 +7,6 @@ import { IoMdMail } from "react-icons/io";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdOutlineSearch } from "react-icons/md";
 import Hero2 from '../Hero2/Hero2';
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
 export const Team = ({ members }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeLetter, setActiveLetter] = useState('');

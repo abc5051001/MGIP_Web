@@ -7,7 +7,7 @@ import 'hero-slider/dist/index.css';
 import Title from '../Title/Title';
 import Subtitle from '../Subtitle/Subtitle';
 import Wrapper from '../Wrapper/Wrapper';
-
+import washingtonWhite from '../../pictures/washington_white.jpg';
 const MyHeroSlider = () => {
   const goToNextSlideRef = useRef(null);
   const goToPreviousSlideRef = useRef(null);
@@ -61,6 +61,8 @@ const MyHeroSlider = () => {
       <Slide
         label="Washington, D.C."
         background={{
+            
+            
           backgroundImageSrc: dc,
           backgroundAnimation: 'zoom',
         }}
@@ -75,8 +77,10 @@ const MyHeroSlider = () => {
 
       <Slide
         label="Alexandria"
+        shouldRenderMask={false}
         background={{
-          backgroundImageSrc: alexandria,
+          maskBackgroundBlendMode: 'unset',
+          backgroundImageSrc: washingtonWhite,
           backgroundAnimation: 'zoom',
         }}
       >
